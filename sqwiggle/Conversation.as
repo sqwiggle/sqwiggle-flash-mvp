@@ -1,0 +1,1 @@
+﻿package sqwiggle {	import sqwiggle.Member;	import sqwiggle.Self;	import sqwiggle.GUID;	public class Conversation extends Object {		var id:String;				public function Conversation() {			this.id = GUID.create();		}	}}
